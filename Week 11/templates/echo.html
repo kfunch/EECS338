@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+<title>AI Ted Talk</title>
+</head>
+
+<body>
+<div>
+	<h1>AI Ted Talk</h1>
+	<form class="form-inline" method="post" action="">
+	<div class="form-group">
+	    <label for="first">Topic</label>
+	    <br>
+	    <input type="text" class="form-control" id="first" name="firstVerb">
+	</div>
+	<br>
+	<button type="submit" class="btn btn-default">Generate</button>
+	<br>
+	<p id='output1'>
+		{{ r1 }}
+	</p>
+	<p id='output2'>
+		{{ r2 }}
+	</p>
+	<p id='output3'>
+		{{ r3 }}
+	</p>
+	<p id='output4'>
+		{{ r4 }}
+	</p>
+</div>
+</form>
+
+</body>
+
+<style>
+h1 {
+	padding-bottom: 30px;
+}
+div {
+	margin: auto;
+	width: 50%;
+}
+.form-group {
+	padding-bottom: 20px;
+}
+#output1 {
+	padding-top: 30px;
+}
+#output2 {
+	padding-top: 10px;
+}
+#output3 {
+	padding-top: 10px;
+}
+#output4 {
+	padding-top: 10px;
+}
+body {
+	background-color: #A9E2F3;
+}
+</style>
+</html>
